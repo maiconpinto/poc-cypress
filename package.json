@@ -1,0 +1,27 @@
+{
+  "name": "poc-cypress",
+  "version": "1.0.0",
+  "description": "PoC Cypress",
+  "main": "index.js",
+  "scripts": {
+    "open": "./node_modules/.bin/cypress open",
+    "run": "./node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiconpinto/poc-cypress.git"
+  },
+  "keywords": [
+    "poc",
+    "cypress"
+  ],
+  "author": "Maicon Pinto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiconpinto/poc-cypress/issues"
+  },
+  "homepage": "https://github.com/maiconpinto/poc-cypress#readme",
+  "devDependencies": {
+    "cypress": "^3.4.0"
+  }
+}
